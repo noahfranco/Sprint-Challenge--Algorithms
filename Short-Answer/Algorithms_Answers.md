@@ -14,8 +14,12 @@ c) O(c^n) - This solution is pretty inefficient because of the size of the input
 
 pseudocode
 
-1. Create a function called n_story with a argument of  eggs
-2. 
+1. Create a function called n_story with a argument of floor and egg
+
+2. determine the value of f by making a variable equal to the length of the argument
+
+3. Make an if statement declaring if an ege is thrown off floor f the egg get's broken elif egg doesn't get broken when thrown off a floor less than floor f
+
 
 
 
