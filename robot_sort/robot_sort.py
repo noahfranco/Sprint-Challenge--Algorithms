@@ -97,7 +97,17 @@ class SortingRobot:
         Sort the robot's list.
         """
         # Fill this out
-        pass
+        # bubble sort :)
+
+        for i in range(len(self._list)-1, 0, -1):
+            for sorting in range(0, i):
+                if self._list[sorting] > self._list[sorting+1]:
+                    # swap order of list from less to greatest
+                    self._list[sorting], self._list[sorting+1] = self._list[sorting+1], self._list[sorting]
+                    print(self._list)
+            # return self._list
+
+
 
 
 if __name__ == "__main__":
